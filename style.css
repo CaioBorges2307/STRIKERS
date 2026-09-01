@@ -1,0 +1,281 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    color: white;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #000000;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 55px;
+}
+
+.logo h1 {
+    font-size: 28px;
+}
+
+/* MENU */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff0800;
+}
+
+/* BANNER PRINCIPAL */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("imagem-principal.jpg") center/cover;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 22px;
+    color: #ff0000;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 15px 30px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #ff0000;
+    color: black;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
+}
+
+/* DESTAQUES */
+
+.destaques {
+    padding: 50px;
+    text-align: center;
+}
+
+.destaques h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #222222;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 15px 0 10px;
+}
+
+.produto p {
+    color: #cccccc;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* PÁGINA SOBRE */
+
+.sobre-titulo {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: #111111;
+}
+
+.sobre-titulo h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.sobre-titulo p {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+
+/* HISTÓRIA */
+
+.sobre-conteudo {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-texto {
+    background-color: #222222;
+    padding: 35px;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.sobre-texto h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.sobre-texto p {
+    color: #cccccc;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+/* MISSÃO E VALORES */
+
+.missao-valores {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.missao,
+.valores {
+    background-color: #222222;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.missao h2,
+.valores h2 {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.missao p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.valores ul {
+    padding-left: 20px;
+    color: #cccccc;
+    line-height: 1.8;
+}
+
+
+/* EQUIPE */
+
+.equipe {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.equipe h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.equipe-introducao {
+    color: #cccccc;
+    margin-bottom: 35px;
+}
+
+.membros {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.membro {
+    background-color: #222222;
+    width: 210px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.membro img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff0000;
+}
+
+.membro h3 {
+    margin: 15px 0 8px;
+}
+
+.membro p {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.membro span {
+    color: #cccccc;
+    font-size: 14px;
+}
